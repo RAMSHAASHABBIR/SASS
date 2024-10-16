@@ -1,0 +1,13 @@
+//mixin
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+@mixin fun2($var){
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    color: $primary-color;
+    font-size: $var;
+}
